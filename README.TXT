@@ -70,5 +70,12 @@ Follow the Course Style Guide, which is linked in the Reference section of the M
 Create a JUnit test class for each production class. Ensure that each method and all state is fully tested. This must include constructors, accessors, mutators, and preconditions. You do not need to test UI-heavy methods like toString and similar.
 Don’t overload test methods. Test a few related methods together, perhaps (like the full constructor and related accessors); this way, failure reports can pinpoint what failed. Test one precondition (for one method) at a time; the first triggered exception bails out of the method, so subsequent tests are untested.
 
+User Instructions:
+
+1. Download the repository files (project) from the download section 
+2. Import it in Intellij or any other Java IDE
+3. Run the application
+
+
 
 
